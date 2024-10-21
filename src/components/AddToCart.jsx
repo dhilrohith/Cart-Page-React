@@ -78,13 +78,15 @@ const AddToCart = ({ items, setItems }) => {
                             <div className="flex flex-col justify-center items-center gap-3">
                                 <div className="flex gap-2">
                                     <button 
-                                        className="px-9 py-1 rounded-lg bg-green-500" 
+                                        className="px-9 py-1 rounded-lg bg-purple-500
+                                        hover:bg-purple-600 active:hover:bg-purple-500" 
                                         onClick={() => handleIncrease(item.id)}
                                     >
                                         +
                                     </button>
                                     <button 
-                                        className="px-9 py-1 rounded-lg bg-orange-500" 
+                                        className="px-9 py-1 rounded-lg bg-gray-500
+                                        hover:bg-gray-600 active:bg-gray-500" 
                                         onClick={() => handleDecrease(item.id)}
                                     >
                                         -

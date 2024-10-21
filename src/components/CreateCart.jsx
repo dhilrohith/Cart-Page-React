@@ -62,7 +62,9 @@ const CreateCart = () => {
                 <div className=" fixed inset-0 bg-gray-900 bg-opacity-50 flex justify-center items-center z-50">
                     <div className="bg-white p-5 w-[90%] md:w-[50%] relative rounded-lg max-h-[80vh] overflow-y-auto">
                         <button
-                            className="absolute top-2 right-2 text-red-500 font-bold "
+                            className="absolute top-2 right-2 text-red-500 font-bold 
+                            active:bg-red-600 active:text-white
+                            rounded-[100%] flex-shrink-0 px-2 shadow-md shadow-red-400"
                             onClick={closeCart}
                         >
                             X
